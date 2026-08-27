@@ -215,7 +215,6 @@ export const Footer: React.FC<FooterProps> = ({
             <p>
               © {new Date().getFullYear()} {settings.foundationName}। সর্বস্বত্ব সংরক্ষিত।
             </p>
-            )}
           </div>
           <div className="flex items-center gap-2">
             <span className="text-slate-300">ডেভলপার:</span>
