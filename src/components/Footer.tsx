@@ -215,15 +215,6 @@ export const Footer: React.FC<FooterProps> = ({
             <p>
               © {new Date().getFullYear()} {settings.foundationName}। সর্বস্বত্ব সংরক্ষিত।
             </p>
-            {onOpenAdmin && (
-              <button
-                onClick={onOpenAdmin}
-                className="text-slate-500 hover:text-amber-300 transition-colors inline-flex items-center gap-1 cursor-pointer"
-                title="এডমিন লগইন"
-              >
-                <Lock className="w-3 h-3" />
-                <span>এডমিন</span>
-              </button>
             )}
           </div>
           <div className="flex items-center gap-2">
