@@ -1,0 +1,8 @@
+{
+  "name": "ইসলামী ধারার ফাউন্ডেশন",
+  "description": "গুগল শিট ও গুগল অ্যাপস স্ক্রিপ্ট চালিত একটি আধুনিক ও ডায়নামিক ইসলামী ফাউন্ডেশন ওয়েবসাইট",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
