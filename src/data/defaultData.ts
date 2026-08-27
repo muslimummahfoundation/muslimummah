@@ -4,14 +4,14 @@ import { TARGET_SPREADSHEET_ID, TARGET_SPREADSHEET_URL, DEFAULT_DEPLOYED_APP_SCR
 
 export const INITIAL_DATABASE_STATE: DatabaseState = {
   settings: {
-    foundationName: 'ইসলামী ধারার ফাউন্ডেশন',
-    slogan: 'আর্তমানবতার সেবায় একটি আদর্শ কল্যাণসমাজ',
+    foundationName: 'মুসলিম উম্মাহ্ ফাউন্ডেশন',
+    slogan: 'উম্মাহর স্বার্থে, সুন্নাহর সাথে',
     logoUrl: '', // uses clean SVG/Islamic crescent emblem or loading placeholder
-    regNumber: 'রেজি নং: IDF-২০২৪/০৯৮৭',
+    regNumber: 'রেজি নং: MUF-২০২৪/০৯৮৭',
     establishedYear: '২০২০',
     phone: '+৮৮০১৭১২-৩৪৫৬৭৮',
     altPhone: '+৮৮০১৯৮৭-৬৫৪৩২১',
-    email: 'contact@islamicdharahfoundation.org',
+    email: 'contact@muslimummahfoundation.org',
     address: 'বাড়ি নং ১২, রোড নং ৫, ধানমন্ডি, ঢাকা-১২০৫, বাংলাদেশ',
     whatsapp: '+8801712345678',
     facebookUrl: 'https://facebook.com',
@@ -27,7 +27,7 @@ export const INITIAL_DATABASE_STATE: DatabaseState = {
     nagadNumber: '০১৮০০-১২৩৪৫৬ (মার্চেন্ট)',
     rocketNumber: '০১৭০০-১২৩৪৫৬-৭',
     bankName: 'ইসলামী ব্যাংক বাংলাদেশ পিএলসি',
-    bankAccountName: 'ইসলামী ধারার ফাউন্ডেশন',
+    bankAccountName: 'মুসলিম উম্মাহ্ ফাউন্ডেশন',
     bankAccountNumber: '২০৫০১২৩৪৫৬৭৮৯০০',
     bankBranch: 'ধানমন্ডি শাখা, ঢাকা',
     bankRouting: '১২৫২৬০৯৮৭',

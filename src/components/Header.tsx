@@ -157,6 +157,17 @@ export const Header: React.FC<HeaderProps> = ({
                 {isSyncing ? 'সিঙ্ক হচ্ছে...' : 'শিট সিঙ্ক'}
               </span>
             </button>
+
+            {/* Admin Control button */}
+            <button
+              id="header-admin-btn"
+              onClick={onOpenAdmin}
+              className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-medium bg-slate-900 hover:bg-slate-800 text-white transition-all shadow-xs cursor-pointer"
+              title="এডমিন কন্ট্রোল প্যানেল"
+            >
+              <Lock className="w-3.5 h-3.5 text-amber-400" />
+              <span className="font-sans-bn">এডমিন</span>
+            </button>
           </div>
 
           {/* Mobile menu toggle */}
