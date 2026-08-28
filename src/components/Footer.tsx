@@ -108,7 +108,7 @@ export const Footer: React.FC<FooterProps> = ({
   }}
 >
   <img
-    src="https://drive.google.com/file/d/1vJeNIgGMihFDJbAUZTlV_DVgbHSWL3vl/view?usp=drivesdk"
+    src="https://lh3.googleusercontent.com/d/1vJeNIgGMihFDJbAUZTlV_DVgbHSWL3vl"
     alt="Logo"
     className="w-full h-full object-contain"
   />
