@@ -53,8 +53,7 @@ export const ActivitiesSection: React.FC<ActivitiesSectionProps> = ({
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 text-xs font-bold font-serif-bn mb-3 border border-emerald-200">
-            <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
-            <span>আমাদের উদ্যোগ ও সেবা</span>
+                  <span>দ্বীনের দাওয়াহ, ভ্রাতৃত্ব ও মানবসেবায় নিয়োজিত</span>
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold font-serif-bn text-slate-900 tracking-tight mb-3">
             কার্যক্রম ও প্রজেক্টসমূহ
