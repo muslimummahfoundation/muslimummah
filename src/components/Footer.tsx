@@ -108,8 +108,8 @@ export const Footer: React.FC<FooterProps> = ({
   }}
 >
   <img
-    src="https://lh3.googleusercontent.com/d/1vJeNIgGMihFDJbAUZTlV_DVgbHSWL3vl"
-    alt="Logo"
+    src="https://lh3.googleusercontent.com/d/1AU4y5jaii-s9buDQGafouVSyNibeXOFF"
+    alt="Logo" {/*ফুটার এর লোগো এখানে হবে*/}
     className="w-full h-full object-contain"
   />
 </div>
