@@ -100,15 +100,19 @@ export const Footer: React.FC<FooterProps> = ({
           {/* Foundation Brand Column */}
           <div className="lg:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
-              <div 
-                className="w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold text-xl border"
-                style={{
-                  backgroundColor: settings.primaryColor || '#059669',
-                  borderColor: settings.secondaryColor || '#d97706'
-                }}
-              >
-                ☪
-              </div>
+              <div
+  className="w-10 h-10 rounded-xl flex items-center justify-center border overflow-hidden"
+  style={{
+    backgroundColor: settings.primaryColor || '#059669',
+    borderColor: settings.secondaryColor || '#d97706'
+  }}
+>
+  <img
+    src="https://drive.google.com/file/d/1vJeNIgGMihFDJbAUZTlV_DVgbHSWL3vl/view?usp=drivesdk"
+    alt="Logo"
+    className="w-full h-full object-contain"
+  />
+</div>
               <div>
                 <h3 className="text-xl font-bold font-serif-bn text-white">{settings.foundationName}</h3>
                 <p className="text-xs text-amber-300 font-sans-bn">{settings.slogan}</p>
